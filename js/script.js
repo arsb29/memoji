@@ -12,7 +12,7 @@ function shuffle(array) {
 
 isTimerRun = false;
 completedCards = 0;
-randomSample = ['💩', '🧠', '🤵', '👂🏻', '👩‍🦰', '🦄', '💩', '🧠', '🤵', '👂🏻', '👩‍🦰', '🦄']
+randomSample = ['💩', '🧠', '🤵', '👂🏻', '😘', '🦄', '💩', '🧠', '🤵', '👂🏻', '😘', '🦄']
 randomSample = shuffle(randomSample)
 
 var flibody = document.querySelectorAll('.flip__body');

@@ -198,8 +198,11 @@ body.lock {
   background: #22ab93;
   background: -o-linear-gradient(45deg, #22ab93 0%, #19668d 100%);
   background: linear-gradient(45deg, #22ab93 0%, #19668d 100%);
+  -webkit-perspective: 0;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  visibility: visible;
+  backface-visibility: hidden;
 }
 
 .flip__back {
